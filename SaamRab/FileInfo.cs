@@ -8,11 +8,11 @@ namespace SaamRab
     class FileInfo
     {
         string path = @"D:\SamRab";
-        public string[] Name()
+        public void Name()
         {
             string[] files = Directory.GetFiles(path);
             string[] dir = Directory.GetDirectories(path);
-            return files;
+            return;
 
         }
     }
